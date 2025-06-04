@@ -98,6 +98,7 @@ const Header = () => {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/categories">Categories</NavLink>
         <NavLink to="/must-sees">Must Sees</NavLink>
+        <NavLink to="/websites">Websites</NavLink>
       </NavigationItems>
       <HamburgerMenu onClick={toggleMenu}>
         {isOpen ? <CloseIcon style={{ fontSize: '30px' }} /> : <MenuIcon style={{ fontSize: '30px' }} />}

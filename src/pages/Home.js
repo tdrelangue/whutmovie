@@ -31,11 +31,20 @@ const HomePage = () => {
     <HomePageContainer>
       <Logo src={logo} alt="Logo" />
       <Text>
-        Saturday night, you are looking through Netflix 
-        and you have seen all the movies presented to you. 
-        If your looking for WhutMovie to view, this website is for you.
-        On WhutMovie I share the best movie I've seen, I sort them in explicit categories, 
-        I share why they are great and where to find them.
+        <strong>
+          Saturday night, scrolling through Netflix, 
+          and you've already seen everything they’re showing?
+        </strong> 
+        <br/><br/>
+
+        If you're hunting for what to watch next, WhutMovie has you covered! 
+        Here, I showcase the best movies I’ve watched, organised into clear categories.
+        <br/>
+        You'll get my take on why they're worth your time
+        <br/> 
+        —in a quirky, no-nonsense way—
+        <br/> 
+        plus, where to stream them.
       </Text>
     </HomePageContainer>
   );
